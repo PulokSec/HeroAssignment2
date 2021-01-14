@@ -1,0 +1,129 @@
+*{
+    font-family: Roboto; /*declair global styles */
+    font-style: normal;
+    font-weight: 500px;
+}
+h1{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 80px;
+}
+h5{
+    font-weight: bold;
+}
+.buy-now-button{
+    background: #A4BC46;
+    color: whitesmoke;
+    font-weight: 500px;
+    width: 170px;
+    height: 60px;
+    left: 1121px;
+    top: 1310px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.banner{
+    background-color:#FFFBF0;
+}
+.banner2{
+    margin-top: 200px;
+}
+.banner2 img{
+    border-radius: 10px;
+    width: 100%;
+}
+.title{
+    color: #FABE4C;
+
+}
+.filled{
+    color: white;
+}
+.navpos li a{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+.card-item {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    background: #F1F1F1;
+    border-radius: 20px;
+
+}
+.cardimg img{
+    width: 78px;
+    height: 82px;
+    left: 162px;
+    top: 2295px;
+}
+.bgfoot{
+    background-color: #FFFBF0;
+}
+.policy li{
+    list-style: none;
+    margin-left: 1px;
+}
+.policy a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+footer p{
+    text-decoration: solid;
+    font-size: 12px;
+    font-family: Roboto;
+    text-align: center;
+    font-style: normal;
+    color:#3C3C3C;
+}
+.cartimg img{
+    width: 599px; 
+    height: 354.07px; 
+    top: 2308px;
+    left: 707px;
+}
+.cartbg{
+    border: none;
+    box-shadow: 5px 5px 5px lightgray;
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+.sub{
+    background-color: #F1F1F1;
+    width: 100%;
+    border: none;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+.sub-button{
+    background: #7c64bd;
+    color: whitesmoke;
+    font-weight: 500px;
+    width: 170px;
+    height: 40px;
+    left: 1121px;
+    top: 1310px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* making banner image responsive */
+@media(max-width:992px){
+
+    .banner2 img{
+        width: 100%;
+    }  
+}
+@media(max-width:668px){
+    .banner2 img{
+        width: 100%;
+    }
+}
